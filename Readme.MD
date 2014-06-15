@@ -82,9 +82,9 @@ For this, joint "subjet" y  "practice" with "labels2" vector.
 ` colnames(Total)<-(labels) `
 
 
-## 10 Make a new column, the "practice" variable, with activity codes
+## 10 Make a new column, the "practice" variable, with activity codes.
 
-I use descriptive names for each activity
+I use descriptive names for each activity.
 
 ` Total$practice <- Recode(Total$practice, '1= "Walking"; 2= "Walking_Upstairs"; 3= "Walking_Downstairs"; 4= "Sitting"; 5="Standing"; 6= "Laying"', as.factor.result=TRUE) `
 
